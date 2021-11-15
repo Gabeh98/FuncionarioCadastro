@@ -20,7 +20,7 @@ public class ImovelNovo extends Imovel {
 	}
 
 	public Double calcularValorImovel() {
-		return null;
+		return getValor() + valorAdicional;
 	}
 
 	@Override
